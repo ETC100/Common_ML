@@ -3,3 +3,4 @@
 2. logistic regression
 3. Perception machine
 4. Naive Bayes classifier
+5. K-means clustering
