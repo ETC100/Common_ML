@@ -7,3 +7,4 @@ I will try my best to avoid using sklearn, use numpy instead.
 5. K-means clustering
 6. Max entropy, the python file is from pkudodo, the dataseat from https://www.kaggle.com/datasets/oddrationale/mnist-in-csv  
 The implement of max entropy  is hard for me until now (2024.8.4).
+7. Decision tree
