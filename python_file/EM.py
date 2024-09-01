@@ -8,11 +8,10 @@ p_B_true = 0.5
 def generate_data(p_A, p_B, num_samples):
     data = []
     for _ in range(num_samples):
-        # 随机选择硬币
         if np.random.rand() > 0.5:  # choose A/B = 1:1
             coin = 'A'
             heads = np.random.binomial(n=10, p=p_A)  # toss 10 times
-        else:  # 有50%的概率选择硬币B
+        else:
             coin = 'B'
             heads = np.random.binomial(n=10, p=p_B)  # toss 10 times
         tails = 10 - heads
